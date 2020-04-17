@@ -1,0 +1,949 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+/*--Container-1*/
+.container{
+    overflow: hidden;
+}
+
+/*Main page image*/
+.img-fluid{
+    top:5%;
+    right: 70%;
+}
+
+/*logo image*/
+.logo{
+    position: fixed;
+    top:2%;
+    left: 2%;
+    z-index: 1;
+}
+
+/*background of blur text and image*/
+.blur{
+    font-family: 'Bad Script', cursive;
+    color: turquoise;
+    opacity: .2;
+    transform: rotate(-25deg);
+    position: absolute;
+    top: 10%;
+    left: 55%;
+}
+
+.background{
+    opacity: .5;
+    top: 45%;
+    left: 90%;
+    position: absolute;
+}
+
+.hamburger{
+    position: absolute;
+    top: 5%;
+    left: 92%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+/*main page text*/
+.heading{
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    font-family: 'Bad Script', cursive;
+    word-spacing: 10px;
+}
+
+.heading h1{
+    color: darkred;
+    text-transform: uppercase;
+    text-shadow: darksalmon;
+}
+
+/*button on main page*/
+.btn{
+    border-radius: 50%;
+    z-index: 0;
+    width: 110px;
+    height: 50px;
+    cursor: pointer;
+    background-color: cyan;
+    font-family: 'Courgette', cursive;
+    box-shadow: 4px 4px 3px rgb(180, 248, 248);
+}
+
+.btn:hover{
+    border-top-color: hotpink;
+    border-bottom-color: thistle;
+    border-left-color: hotpink;
+    border-right-color: thistle;
+    box-shadow: 4px 4px 3px thistle;
+    background-color: transparent;
+    color: thistle;
+}
+
+.primary{
+    position: absolute;
+    left: 65%;
+    top: 75%;
+}
+
+.Secondary{
+    position: absolute;
+    left: 75%;
+    top: 75%;
+}
+
+a.play-href{
+    position: absolute;
+    top: 79%;
+    left:60%;
+}
+
+.play{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: cyan;
+    box-shadow: 4px 4px 3px rgb(180, 248, 248);
+}
+
+.play:hover{
+    border-top-color: hotpink;
+    border-bottom-color: thistle;
+    border-left-color: hotpink;
+    border-right-color: thistle;
+    box-shadow: 4px 4px 3px thistle;
+    background-color: transparent;
+}
+
+.fa-play{
+    padding: 23%;
+    margin: 9%;
+}
+/*Toggle menu items*/
+.menu-box{
+    overflow: hidden;
+}
+
+.menu-img{
+    display: none;
+    position: absolute;
+    top:-77%;
+    left: 25%;
+    z-index: 0;
+    transform: rotate(90deg);
+}
+
+/*LIst items in toggle menu*/
+ul{
+    display: none;
+    list-style: none;
+    position: absolute;
+    top: 30%;
+    z-index: 1;
+    left: 40%;
+    font-family: 'Courgette', cursive;
+}
+
+li{
+    margin: 5% 0.5%;
+}
+/*anchor tag of list items*/
+li a{
+    text-decoration: none;
+    color: turquoise;
+    font-size: 30px;
+    line-height: 60px;
+}
+
+li a:hover{
+    color: violet;
+}
+
+/*background of basketball on toggle menu*/
+.background-basketball{
+    display: none;
+    opacity: .2;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    z-index: 1;
+}
+
+/*2nd page of About-Us*/
+.container-2{
+    margin: 11% 13%;
+    padding: 2% 1%;
+}
+
+/*2nd page heading*/
+.heading-2{
+    color: hotpink;
+    font-family: 'Bad Script', cursive;
+    position: relative;
+    top: 121%;
+    left: 5%;
+}
+
+.pic{
+    border-radius: 10%;
+    box-shadow: 2px 2px 2px black;
+    position: absolute;
+}
+
+.image-1{
+    transform: rotate(10deg);
+    left: 54%;   
+    top: 130%; 
+}
+
+.image-2{
+    transform: rotate(-10deg);
+    left: 69%;
+    top: 131%;    
+}
+
+.image-3{
+    transform: rotate(20deg);
+    left: 66%;    
+    top: 158%;
+}
+
+.image-4{
+    transform: rotate(-25deg);
+    left: 54%;
+    top: 163%;    
+}
+
+.lorem-1{
+    font-family: 'Courgette', cursive;
+    color: indianred;
+    width: 40%;
+    word-spacing: 2px;
+}
+
+/*background image*/
+.blur-2{
+    position: absolute;
+    opacity: .2;
+    z-index: -1;
+    color: hotpink;
+    font-family: 'Bad Script', cursive;
+    transform: rotate(-30deg);
+    left: 40%;
+    top: 102%;
+}
+
+.background-2{
+    position: absolute;
+    left: 1%;
+    opacity: .5;
+    z-index: -1;
+}
+
+/*3rd Page Container-3*/
+.container-3{
+    margin: 11% 13%;
+    padding: 2% 1%; 
+    display: grid;
+    grid-template-columns: auto auto auto;
+    overflow: hidden;
+}
+
+/*heading on page 3*/
+.heading-3{
+    font-family: 'Bad Script', cursive;
+    color: lightseagreen;
+    position: absolute;
+    left: 62%;
+    top: 220%;
+}
+
+.lorem-2{
+    font-family: 'Courgette', cursive;
+    color: indigo;
+    width: 40%;
+    word-spacing: 2px;
+    left: 52%;
+    position: absolute;
+    top: 240%;    
+}
+
+.img-3{
+    position: absolute;
+    top: 200%;
+    left: 0%;
+}
+/*Coming soon buttton*/
+.Coming-Soon{
+    border-radius: 50%;
+    border-color: cyan;
+    width: 110px;
+    height: 50px;
+    cursor: pointer;
+    background-color: cyan;
+    font-family: 'Courgette', cursive;
+    box-shadow: 4px 4px 3px rgb(180, 248, 248);
+    top: 270%;
+    left: 64%;
+    position: absolute;
+}
+
+.Coming-Soon:hover{
+    border-top-color: hotpink;
+    border-bottom-color: thistle;
+    border-left-color: hotpink;
+    border-right-color: thistle;
+    box-shadow: 4px 4px 3px thistle;
+    background-color: transparent;
+} 
+/*blur pic*/
+.blur-3{
+    position: absolute;
+    left: 80%;
+    top: 220%;
+    transform: rotate(40deg);
+    font-family: 'Bad Script', cursive;
+    color: indigo;
+    opacity: .3;
+    z-index: -1;
+}
+
+/*4th page's heading*/
+.heading-4{
+    font-family: 'Bad Script', cursive;
+    color: rgb(78, 204, 78);
+    position: absolute;
+    top: 300%;
+    left: 34%;
+}
+
+.img-4{
+    position: absolute;
+    top: 300%;
+    z-index: -1;
+    opacity: .2;
+}
+
+.img-5{
+    position: absolute;
+    top: 260%;
+    z-index: -1;
+    opacity: .2;
+    left: 50%;
+}
+/*Team section outer box*/
+.box{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    border-radius: 10%;
+}
+
+.box:hover{
+    border-top-color: hotpink;
+    border-bottom-color: darkcyan;
+    border-left-color: hotpink;
+    border-right-color: darkcyan;   
+    border-style: solid;
+    border-width: 1px;
+}
+/*outer box team member 1st*/
+.Member-1{
+    top: 320%;
+    left: 14%;
+}
+
+.Member-2{
+    top: 320%;
+    left:39%;
+}
+
+.Member-3{
+    top: 320%;
+    left: 64%;
+}
+
+.Member-4{
+    top: 372%;
+    left: 27%;
+}
+
+.Member-5{
+    top: 372%;
+    left: 52%;
+}
+/*img section on team member list*/
+.img-section{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border-color: blueviolet;
+    position: absolute;
+    left: 18%;
+    border-width: 1px;
+    border-style: solid;
+    top: 2%;
+}
+/*Name on team member list*/
+.name-section{
+    height:20px;
+    position: absolute;
+    top: 104%;
+    left: 30%;
+}
+
+.name-section h3{
+    font-family: 'Courgette', cursive;
+    color: blueviolet;
+}
+
+/*Heading of 5th page*/
+.heading-5{
+    position: absolute;
+    top: 420%;
+    left: 10%;
+    color: brown;
+    font-family: 'Bad Script', cursive;
+}
+/*background image and text with opacity*/
+.img-6{
+    position: absolute;
+    top: 420%;
+    left: 50%;
+    opacity: .8;
+}
+
+.img-7{
+    position: absolute;
+    top: 420%;
+    left: 3%;
+    opacity: .2;
+}
+
+.tag-line{
+    position: absolute;
+    top: 420%;
+    opacity: .2;
+    left: 26%;
+    font-family: 'Bad Script', cursive;
+    transform: rotate(-10deg);
+}
+/*FAQ section with question & answers*/
+.que{
+    font-family: 'Courgette', cursive;
+    color: crimson;
+    width: 600px;
+}
+
+.ans{
+    font-family: 'Courgette', cursive;
+    color: darkmagenta;
+    font-style: italic;
+    width: 600px;
+}
+
+.que1{
+    position: absolute;
+    top: 440%;
+    left: 5%;
+}
+.ans1{
+    position: absolute;
+    top: 445%;
+    left: 5%;
+}
+
+.que2{
+    position: absolute;
+    top: 470%;
+    left: 5%;
+}
+.ans2{
+    position: absolute;
+    top: 475%;
+    left: 5%;
+}
+.que3{
+    position: absolute;
+    top: 500%;
+    left: 5%;
+}
+.ans3{
+    position: absolute;
+    top: 505%;
+    left: 5%;
+}
+.que4{
+    position: absolute;
+    top: 530%;
+    left: 5%;
+}
+.ans4{
+    position: absolute;
+    top: 535%;
+    left: 5%;
+}
+
+/* social icon */
+.contact{
+    top: 570%;
+    position: absolute;
+    width: 500px;
+    left: 5%;
+    padding: 2%;
+    height: 20px;
+    background-color: rgb(163, 163, 236);
+}
+
+span{
+    line-height: 3px;
+    padding: 2%;
+}
+
+.fas,
+.far{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+.fas:hover,
+.far:hover{
+    color: thistle;
+}
+ 
+/*Copyright section*/
+p{
+    position: absolute;
+    top: 580%;
+    left: 5%;
+    font-family: 'Courgette', cursive;
+    color: darkmagenta;
+    font-style: italic;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .heading{
+        position: absolute;
+        left: 15%;
+    }
+    
+    .img-fluid{
+        height: 500px;
+        width: 500px;
+        opacity: .5;
+    }
+
+    a.play-href{
+        position: absolute;
+        top: 2%;
+        left: 78%;
+    }
+    
+    .btn.primary{
+        position: absolute;
+        top: 395%; 
+        left: 18%;
+    }
+
+    .background{
+        display: none;
+    }
+
+    .btn.Secondary{
+        position: absolute;
+        top: 93%;
+        left: 45%;
+    }
+
+    h1.heading-2 {
+        position: absolute;
+        top: 110%;
+        left: 15%;    
+    }   
+    .lorem-1{
+       position: absolute;
+       top: 120%;
+       width: 60%;
+    }
+    .background-2{
+        position: absolute;
+        top: 89%;
+        left: 70%;
+    }
+
+    .blur-2{
+        position: absolute;
+        top: 80%;
+        opacity: .1;
+    }
+    .pic{
+        position: absolute;
+    }
+    
+    h3.heading{
+        position: absolute;
+        top: 180%;
+    }
+
+    .heading-4{
+        position: absolute;
+        top: 420%;
+    }
+
+    .box{
+        position: relative;
+        display: grid;
+        left: 25%;
+    }
+
+    .Member-1{
+        position: absolute;
+        top: 440%;
+    }
+    .Member-2{
+        position: absolute;
+        top: 490%;
+    }
+    .Member-3{
+        position: absolute;
+        top: 540%;
+    }
+    .Member-4{
+        position: absolute;
+        top: 590%;
+    }
+    .Member-5{
+        position: absolute;
+        top: 640%;
+    }
+} 
+
+@media only screen and (max-width: 700px) {
+    .heading{
+        position: absolute;
+        top: 60%;
+        left: 15%;
+    }
+    .menu-img{
+        position: absolute;
+        top: -7%;
+        height: 600px;
+        width: 500px;
+        left: 1%;
+    }
+
+    .background-basketball{
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        top: 10%;
+    }
+
+    .btn.primary{
+        position: absolute;
+        top: 500%; 
+        left: 25%;
+    }
+
+    .btn.Secondary{
+        position: absolute;
+        top: 500%;
+        left: 20%;
+    }
+
+    .background{
+        display: none;
+    }
+
+    .heading-2{
+        position: absolute;
+        left: 15%; 
+    }  
+
+    .lorem-1{
+        width: 50%;
+    }
+    
+    .image-1{
+        position: absolute;
+        left: 15%;
+        top:170%;
+    }
+
+    .image-2{
+        left: 12%;
+        top: 198%;
+    }
+
+    .image-3{
+        left: 45%;
+        top: 195%;
+    }
+
+    .image-4{
+        left: 45%;
+    }
+
+    .image-3{
+        left: 55%;
+        top: 95%;
+    }
+    
+    .heading-3{
+        position: absolute;
+        top: 260%;
+        left: 15%;
+        z-index: 1;
+    }
+
+    .lorem-2{
+        position: absolute;
+        top: 355%;
+        left: 35%;
+        color: maroon;
+    }
+
+    .img-3{
+        position: absolute;
+        object-fit: cover;
+        top: 250%;
+        left: -6%;
+        z-index: -1;
+    }
+
+    .img-4,
+    .img-5{
+        display: none;
+    }
+
+    .Coming-Soon{
+        position: absolute;
+        top: 400%;
+        left: 40%;
+        margin: 2%;
+    }
+
+    .heading-4{
+        position: absolute;
+        top: 420%;
+    }
+
+    .box{
+        position: relative;
+        display: grid;
+    }
+
+    .Member-1{
+        position: absolute;
+        top: 440%;
+    }
+    .Member-2{
+        position: absolute;
+        top: 490%;
+    }
+    .Member-3{
+        position: absolute;
+        top: 540%;
+    }
+    .Member-4{
+        position: absolute;
+        top: 590%;
+    }
+    .Member-5{
+        position: absolute;
+        top: 640%;
+    }
+}
+
+@media only screen and (max-width: 945px) {
+    body{
+        align-items: center;
+    }
+    .heading{
+        position: absolute;
+        top: 60%;
+        left: 15%;
+    }
+
+    .btn.primary{
+        position: absolute;
+        top: 900%;
+        left: 20%;
+    }
+
+    .btn.Secondary{
+        position: absolute;
+        top: 900%;
+        left: 50%;
+    }
+    .heading-2{
+        position: absolute;
+        left: 5%;          
+    }   
+    .lorem-1{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        width: 50%;
+    }
+    
+    .image-1{
+        position: absolute;
+        left: 15%;
+        top:180%;
+    }
+
+    .image-2{
+        left: 13%;
+        top: 210%;
+    }
+
+    .image-3{
+        left: 45%;
+        top: 215%;
+    }
+
+    .image-4{
+        left: 45%;
+        top: 185%;
+    }
+    .heading-3{
+        position: absolute;
+        top: 280%;
+        left: 15%;
+        z-index: 1;
+    }
+
+    .lorem-2{
+        position: absolute;
+        top: 400%;
+        left: 20%;
+        width: 60%;
+        color: maroon;
+    }
+
+    .img-3{
+        position: absolute;
+        object-fit: cover;
+        top: 270%;
+        left: -20%;
+        z-index: -1;
+        justify-content: center;
+    }
+
+    .Coming-Soon{
+        position: absolute;
+        top: 440%;
+        left: 40%;
+        margin: 2%;
+    }
+
+    .heading-4{
+        position: absolute;
+        top: 440%;
+        left: 35%;
+    }
+    
+    .box{
+        position: absolute;
+        left: 20%;
+    }
+
+    .Member-1{
+        position: absolute;
+        top: 450%;
+    }
+    .Member-2{
+        position: absolute;
+        top: 510%;
+    }
+    .Member-3{
+        position: absolute;
+        top: 570%;
+    }
+    .Member-4{
+        position: absolute;
+        top: 630%;
+    }
+    .Member-5{
+        position: absolute;
+        top: 690%;
+    }
+
+    .heading-5{
+        position: absolute;
+        top: 730%;
+        left: 45%;
+    }
+
+    .img-6{
+        display: none;
+    }
+    
+    p.que,
+    p.ans{
+        font-size: 15px;
+    }
+
+    .que,
+    .ans{
+        width: 80%;
+        font-size: 20px;
+    }
+
+    .que1{
+        position: absolute;
+        top: 745%;
+    }
+    .ans1{
+        position: absolute;
+        top: 755%;
+    }
+    .que2{
+        position: absolute;
+        top: 770%;
+    }
+    .ans2{
+        position: absolute;
+        top: 780%;
+    }
+    .que3{
+        position: absolute;
+        top: 805%;
+    }
+    .ans3{
+        position: absolute;
+        top: 815%;
+    }
+    .que4{
+        position: absolute;
+        top: 840%;
+    }
+    .ans4{
+        position: absolute;
+        top: 850%;
+    }
+    .contact{
+        position: absolute;
+        top: 890%;
+        width: 50%;
+        left: 20%;
+    }
+
+    .reserved{
+        position: absolute;
+        top: 920%;
+        padding-bottom: 20px;
+        padding-left: 10%;
+    }
+}
+
+
